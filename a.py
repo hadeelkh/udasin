@@ -7,5 +7,9 @@ class Udacian():
 		self.nanodegree = nanodegree
 		self.status=status
 		
+def  show_Udacian_name(self):
+		print (self.name,self.city)
+
+
 Udacian_obj=Udacian('ahmed','taif','sdf','fullstack','student')
-print (Udacian_obj.name)
+Udacian_obj.show_Udacian_name()
