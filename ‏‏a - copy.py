@@ -6,6 +6,8 @@ class Udacian():
 		self.erollment = erollment
 		self.nanodegree = nanodegree
 		self.status=status
+	def show_city(self):
+		print self.city
 		
 Udacian_obj=Udacian('ahmed','taif','sdf','fullstack','student')
-print (Udacian_obj.name)
+Udacian_obj.show_city()
